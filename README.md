@@ -1,2 +1,5 @@
 # font
-Minha fonte do VS Code. 
+A fonte que uso no VS Code,
+JetBrains Mono.
+
+
