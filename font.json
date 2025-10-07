@@ -1,0 +1,11 @@
+  //mudando a fonte
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 14.3,
+    "editor.lineHeight": 1.5,
+    "editor.fontLigatures": false,
+    "editor.fontWeight": "900",
+    
+    //background preto
+    "workbench.colorCustomizations": {
+        "editor.background": "#000000"
+    },
