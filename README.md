@@ -1,56 +1,47 @@
-# Configurando a Fonte JetBrains Mono no VS Code
+# configurando a fonte jetbrains mono no vs code
 
-Este é um guia rápido para instalar e configurar a fonte **JetBrains Mono**, otimizada para desenvolvedores, no seu VS Code.
-
----
-
-### Download
-
-Primeiro, baixe a fonte diretamente do site oficial:
-
-* **Link para Download:** [JetBrains Mono](https://www.jetbrains.com/pt-br/lp/mono/)
+este é um guia rápido para instalar e configurar a fonte **jetbrains mono**, otimizada para desenvolvedores, no seu visual studio code.
 
 ---
 
-### Passos para Instalação
+### download
 
-1.  **Abra a pasta `fonts`**
-    * Após descompactar o arquivo, entre na pasta `fonts`.
+primeiro, baixe a fonte diretamente do site oficial:
+
+* **link para download:** [jetbrains mono](https://www.jetbrains.com/pt-br/lp/mono/)
+
+---
+
+### passos para instalação
+
+1.  **abra a pasta `fonts`**
+    * após descompactar o arquivo, entre na pasta `fonts`.
     <br/>
     <img src="https://github.com/user-attachments/assets/719dab8d-8d68-4e33-a511-3d0cab46f8fa" width="80" />
 
-2.  **Acesse a pasta `ttf`**
-    * Dentro da pasta `fonts`, localize e abra a pasta `ttf` que contém os arquivos da fonte TrueType.
+2.  **acesse a pasta `ttf`**
+    * dentro da pasta `fonts`, localize e abra a pasta `ttf` que contém os arquivos da fonte truetype.
     <br/>
     <img src="https://github.com/user-attachments/assets/d6e0ff8c-eabd-496d-b775-998f72326086" width="80" />
 
-3.  **Instale as fontes**
-    * Selecione todos os arquivos (use o atalho `Ctrl + A`), clique com o botão direito e escolha a opção **Instalar**.
+3.  **instale as fontes**
+    * selecione todos os arquivos (use o atalho `ctrl + a`), clique com o botão direito e escolha a opção **instalar**.
     <br/>
     <img src="https://github.com/user-attachments/assets/15d0d80c-30ec-4f6f-8b06-680e11e642b0" width="500" />
 
 ---
 
-### Configuração no VS Code
+### configuração no vs code
 
-1.  **Abra as Configurações do Usuário (JSON)**
-    * No VS Code, pressione `Ctrl + Shift + P` para abrir a paleta de comandos.
-    * Digite `open user settings json` e selecione a primeira opção.
+1.  **abra as configurações do usuário (json)**
+    * no vs code, pressione `ctrl + shift + p` para abrir a paleta de comandos.
+    * digite `open user settings json` e selecione a primeira opção.
     <br/>
     <img src="https://github.com/user-attachments/assets/bba9942d-dabc-4273-ae46-69210db67ed3" width="400" />
 
-2.  **Adicione o código de configuração**
-    * Copie o código abaixo e cole dentro do seu arquivo `settings.json` para definir a `JetBrains Mono` como a fonte padrão e habilitar os *font ligatures*.
+2.  **adicione o código de configuração**
+    * clique no link abaixo para acessar o arquivo com o código de configuração. copie todo o conteúdo dele e cole dentro do seu arquivo `settings.json`.
 
-    ```json
-    {
-        "editor.fontFamily": "JetBrains Mono",
-        "editor.fontLigatures": true,
-        "editor.fontSize": 14
-    }
-    ```
-    <br/>
-    <img src="https://github.com/user-attachments/assets/a752cf3b-04cb-4efe-b20c-6830cfcebf5e" width="350" />
+    * **link para o arquivo de configuração:** [**font.json**](./font.json)
 
-Pronto! Agora seu VS Code está configurado com a nova fonte.
-
+pronto! agora seu vs code está configurado com a nova fonte.
