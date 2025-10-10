@@ -2,6 +2,9 @@
 
 este é um guia rápido para instalar e configurar a fonte **jetbrains mono**, otimizada para desenvolvedores, no seu visual studio code.
 
+   <img width="703" height="292" alt="image" src="https://github.com/user-attachments/assets/ae2df255-067c-4a45-a5a2-a5be23536e76" />
+
+
 ---
 
 ### download
